@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>图片/bomb.jpg</file>
+        <file>图片/flag.jpg</file>
+        <file>图片/background.jpg</file>
+    </qresource>
+</RCC>

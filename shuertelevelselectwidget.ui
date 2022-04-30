@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>shuertelevelselectwidget</class>
+ <widget class="QWidget" name="shuertelevelselectwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>229</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widgetCenter" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#widgetCenter {
+
+        background-image: url(:/image/图片/background.jpg);
+}
+
+QPushButton {
+        border: none;
+        border-radius: 8px;
+}</string>
+     </property>
+     <widget class="QPushButton" name="btnLevel3">
+      <property name="geometry">
+       <rect>
+        <x>52</x>
+        <y>169</y>
+        <width>118</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>3X3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnLevel4">
+      <property name="geometry">
+       <rect>
+        <x>52</x>
+        <y>217</y>
+        <width>118</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>4X4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnLevel5">
+      <property name="geometry">
+       <rect>
+        <x>53</x>
+        <y>265</y>
+        <width>118</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>5X5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnLevel6">
+      <property name="geometry">
+       <rect>
+        <x>52</x>
+        <y>312</y>
+        <width>118</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>6X6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnRanking">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>428</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>排行</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnShare">
+      <property name="geometry">
+       <rect>
+        <x>146</x>
+        <y>427</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>分享</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+

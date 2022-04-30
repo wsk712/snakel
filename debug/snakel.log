@@ -1,0 +1,7 @@
+﻿  Reading Qt configuration (C:/Qt/6.2.3/msvc2019_64/bin/qmake)
+  Moc'ing snakel.h...
+  main.cpp
+  snakel.cpp
+C:\Users\王思恺\Documents\snakel\snakel.cpp(20,38): warning C4100: “event”: 未引用的形参
+  moc_snakel.cpp
+  snakel.vcxproj -> C:\Users\王思恺\Documents\snakel\debug\snakel.exe

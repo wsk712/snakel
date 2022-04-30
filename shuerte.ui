@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>shuerte</class>
+ <widget class="QWidget" name="shuerte">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>shuerte</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widgetCenter {
+        background-image: url(:/image/图片/background.jpg);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widgetCenter" native="true">
+     <widget class="shuertegamepanelwidget" name="widgetGamePanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>52</x>
+        <y>197</y>
+        <width>285</width>
+        <height>285</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnStart">
+      <property name="geometry">
+       <rect>
+        <x>129</x>
+        <y>514</y>
+        <width>131</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: none;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>开始游戏</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelTimes">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>110</y>
+        <width>70</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>00:00:00</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnLevelSelect">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>110</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: none;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>难度</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>shuertegamepanelwidget</class>
+   <extends>QWidget</extends>
+   <header>shuertegamepanelwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
