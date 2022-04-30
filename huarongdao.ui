@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QWidget#widgetCenter {
-        background-image: url(:/image/图片/background.jpg);
+        background-image: url(://picture/background.jpg);
 }</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">

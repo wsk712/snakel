@@ -65,8 +65,8 @@ saolei::saolei(QWidget *parent) :
 
 
 
-    flagImage = QPixmap(":/image/图片/flag.jpg");	//旗帜
-    bombImage = QPixmap(":/image/图片/bomb.jpg");	//雷
+    flagImage = QPixmap("://picture/flag.jpg");	//旗帜
+    bombImage = QPixmap("://picture/bomb.jpg");	//雷
 
         rows = 9;
         cols = 9;

@@ -47,19 +47,85 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="huarongdao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="huarongdaogamepanelwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="huarongdaolevelselectwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="saolei-item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="saolei.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="saoleidialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shuerte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shuertegamepanelwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shuertelevelselectwidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="snakel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="twozerofoureight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="huarongdao.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="huarongdaogamepanelwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="huarongdaolevelselectwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="saolei-item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="saolei.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="saoleidialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="shuerte.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="shuertegamepanelwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="shuertelevelselectwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
     <QtMoc Include="snakel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="twozerofoureight.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
+    
+    
+    
+    
+    
+    
     <CustomBuild Include="debug\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
@@ -71,13 +137,62 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="huarongdao.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="huarongdaolevelselectwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="saolei.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="saoleidialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="shuerte.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="shuertelevelselectwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
     <QtUic Include="snakel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="twozerofoureight.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
+    <None Include="picture\background.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\bomb.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\flag.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
     <QtRcc Include="myimage.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>

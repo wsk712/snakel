@@ -15,6 +15,12 @@ snakel::snakel(QWidget *parent)
     //开始按钮
     button2048=new QPushButton("2048",this);
     button2048->setGeometry(110,150,93,29);
+    button2048->setStyleSheet("QPushButton{font: 25 14pt '微软雅黑 Light';color: rgb(255,255,255);background-color: rgb(255,245,238);"
+                                                                      "border: 2px groove gray;border-radius:15px;padding:2px 4px;border-style: outset;}"
+                                                                      "QPushButton:hover{background-color: rgb(22,218,208);}"//hover
+                                                                      "QPushButton:pressed{background-color: rgb(17,171,164);}"//pressed
+                                                                        "border:2px solid rgb(20,196,188);");//边框粗细-颜色-圆角设置
+
 
     buttonsaolei=new QPushButton("扫雷",this);
     buttonsaolei->setGeometry(110,200,93,29);

@@ -36,6 +36,9 @@
       <height>29</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;华文楷体&quot;;</string>
+    </property>
     <property name="text">
      <string>PushButton</string>
     </property>
@@ -62,8 +65,11 @@
       <height>29</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;华文行楷&quot;;</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>数字华容道</string>
     </property>
    </widget>
   </widget>
